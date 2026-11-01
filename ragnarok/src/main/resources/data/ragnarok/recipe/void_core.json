@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BDB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "ragnarok:void_core",
+    "count": 1
+  }
+}

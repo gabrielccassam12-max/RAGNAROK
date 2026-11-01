@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ragnarok",
+  "version": "${version}",
+  "name": "Ragnarok: Punhos do Apocalipse",
+  "description": "Fight with your bare fists: four elements, combinations, transformations and custom particles.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ragnarok.Ragnarok"
+    ],
+    "client": [
+      "com.ragnarok.client.RagnarokClient"
+    ]
+  },
+  "mixins": [
+    "ragnarok.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

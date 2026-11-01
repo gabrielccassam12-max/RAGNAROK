@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BDB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:lightning_rod"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "ragnarok:storm_core",
+    "count": 1
+  }
+}
